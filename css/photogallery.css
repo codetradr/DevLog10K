@@ -1,0 +1,20 @@
+.pix{
+    /* width: 15%; */
+    float: left;
+    width: 100px;
+    background: orange;
+    /* margin: 1.66%; */
+
+}
+
+.gallerypix{
+
+    font-family: Josefin Slab;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
