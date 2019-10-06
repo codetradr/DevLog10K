@@ -1,31 +1,63 @@
+body{
 
+    font-family: 'Courier', 'Impact', 'Arial','Libre Baskerville', 'sans-serif';
+    /* max-width: 700px; */
+    /* border: 20px solid red; */
+    padding: 20px;
+    width: 1000px;
+    max-width: 80%;
+    margin: 20px auto;
+    border: 2px;
+    border-style: solid;
+    border-color: salmon;
 
-td {
-    width: 100px;
-    height: 100px;
-    padding: 2px;
-/*    background: pink;*/
-    /* border: 2px solid black; */
 
 }
 
-.vertical {
+#daily-logs a{
+      color: turquoise;
+    }
 
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+p{
+margin: 20px
 }
 
-.horizontal {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+section{
+  margin: 20px;
+  padding: 20px;
+}
+
+div{
+  margin: 20px;
+}
+
+hr{
+  margin: 1px;
+}
+
+/* css for tic-tac-toe & photogallery */
+
+.pix{
+    /* width: 15%; */
+    float: left;
+    width: 30%
+    /* margin: 1.66%; */
 
 }
 
-table{
-    margin:auto;
+#gallerypix{
+
+    font-family: Josefin Slab;
+    margin-left: 1.66%;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
 }
 
-h1{
-
-    text-align: center;
+#gallery{
+  padding: 10px;
+  margin-left: auto;
 }
