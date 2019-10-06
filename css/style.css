@@ -1,7 +1,31 @@
-body{
-      font-family: 'Courier, 'Impact', 'Arial','Libre Baskerville', sans-serif;
+
+
+td {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+/*    background: pink;*/
+    /* border: 2px solid black; */
+
 }
 
-#daily-logs a{
-      color: turquoise;
-    }
+.vertical {
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.horizontal {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+table{
+    margin:auto;
+}
+
+h1{
+
+    text-align: center;
+}
