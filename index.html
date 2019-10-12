@@ -57,6 +57,19 @@
        <hr />
 -->
      
+    <section>
+          <a name="10/12/2019"></a>
+          <p><mark>10/12/2019</mark></p>
+          <ul>
+            <li>Up at 5am. Almost slept in, but decided to be consistent, even on weekends.</li>
+            <li>Revisited .forEach method. Lesson 165. I will come back to it. I feel like it has elements of list comprehensions.</li>
+            <li>Looking forward to reading Eloquent Javascript, one of the books in my javascript playlist at Safari books online.</li>
+            <li>Started learning about Javascript Objects; this is similar to a Dictionary in Python.</li>
+          </ul>
+       </section>
+       <br />
+       <hr />
+    
        <section>
           <a name="10/11/2019"></a>
           <p><mark>10/11/2019</mark></p>
@@ -74,10 +87,11 @@
 
 function printMax(myArray){
     var max = myArray[0];
-    for(i=0; i<myArray.length; i++)
+    for(i=0; i<myArray.length; i++){
         if(myArray[i] > max){
-            max = myArray[i]
+            max = myArray[i];
         }
+          }
 return max
 }
 
@@ -98,10 +112,11 @@ printMax(dux) -->
             var max = 0
 function printMax(myArray){
     var max = myArray[0];
-    for(i=1; i<=myArray.length; i++)
+    for(i=1; i<=myArray.length; i++){
         if(myArray[i] > max){
-            max = myArray[i]
+            max = myArray[i];
         }
+          }
 return max
 }
 
@@ -119,14 +134,19 @@ printMax(tux)
 <!-- 
 function isUniform(myArray){
  var count = 1;
- var first = myArray[0]
+ var first = myArray[0];
  
  for(i=1; i<myArray.length; i++){
      if(first === myArray[i]){
-         count += 1
+         count += 1;
      }
  if(count === myArray.length){
-     console.log("TRUE"); if else{console.log("FALSE")}}
+     console.log("TRUE"); 
+     if else{
+        console.log("FALSE")
+        }
+          }
+ isUniform([2,2,2,2,2])
 -->
 
                 </pre>
