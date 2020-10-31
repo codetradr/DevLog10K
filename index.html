@@ -100,18 +100,14 @@
             new_users = ['Mike', 'Charles', 'Tonnie', 'dallas']
 
             def user_sign_up():
-                if users == []:
-                    print("Let's get some users!")
-                else:
-                    for name in new_users:
-                        if name.lower() in [user.lower() for user in users]:
-                            print(f"Sorry, the username, {name}, is already taken. Please try a different username.")
-                        else:
-                            print(f"The username, {name}, is available!")
-                            
-              # don't remember if i need to return(name) here ...
-              
-          user_sign_up()
+                for name in new_users:
+                            if name.lower() in [user.lower() for user in users]:
+                                print(f"Sorry, the username, {name}, is already taken. Please try a different username.")
+                            else:
+                                print(f"The username, {name}, is available!")
+                # don't remember if i need to return(name) here ...
+
+            user_sign_up()
           
             </pre>
             </code>
