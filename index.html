@@ -98,7 +98,7 @@
           <a name="11/29/2020"></a>
           <p><mark>11/29/2020</mark></p>
           <ul>
-            <li>I got stuck last night ... "Making Pages: The Learning Log Home Page" ... I took a break after about 30 minutes of reviewing the error and googling. Glad I did. I resumed this morning and after reading a couple of posts between reddit and stackoverflow, I found the solution! Typo, attribute name mismatch! The errors started off with 
+            <li>I got stuck last night ... "Making Pages: The Learning Log Home Page" ... The home page was not loading as expected. Initially, it was still the default django home page, then nothing was loading... I took a break after about 30 minutes of reviewing the error and googling. Glad I did. I resumed this morning and after reading a couple of posts between reddit and stackoverflow, I found the solution! Typo, a variable name mismatch! The errors started off with 
               <pre>
               <code>
               <ul>AttributeError: module 'learning_logs.views' has no attribute 'index'</ul>
@@ -113,7 +113,7 @@
               </code>
               </pre>
               </li>
-            <li>Stackoverflow to the rescue ... <a href="https://stackoverflow.com/a/55349715/5799577" target="_blank">Trying to trace a circular import error in Django</a></li>
+            <li>Stackoverflow came to the rescue ... <a href="https://stackoverflow.com/a/55349715/5799577" target="_blank">Trying to trace a circular import error in Django</a></li>
             <li>What a joy when I found that I had mistyped "<code>urlpatterns</code>" ... and once corrected, the code run and the new home page showed!</li>
             <li>Looking back, it appears the hints were there in the errors, ...</li>
             <li>I am glad a struggled on and not gave up / moved on. By now I know the benefits of struggle - and persistence - and subsequently figuring things out.</li>
