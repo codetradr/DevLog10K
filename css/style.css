@@ -8,7 +8,7 @@ body{
     width: 1000px;
     max-width: 80%;
     margin: 20px auto;
-    border: 2px 20px 20px 20px;
+    border: 2px;
     border-style: solid;
     border-color: salmon;
     background-color: HoneyDew;
@@ -30,7 +30,7 @@ section{
 }
 
 div{
-  margin: 20px;
+  margin: 20px 20px 20px 20px;
 }
 
 hr{
