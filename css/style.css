@@ -50,7 +50,9 @@ hr{
 
 .logDetail{
 
-    border: solid green 5px;
+    border-color: green;
+    border-style: solid;
+    border: 5px;
 
 }
 
