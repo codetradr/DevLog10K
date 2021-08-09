@@ -31,6 +31,7 @@ section{
 
 div{
   margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 hr{
@@ -44,6 +45,12 @@ hr{
     float: left;
     width: 30%
     /* margin: 1.66%; */
+
+}
+
+.log-detail{
+
+border: solid 5px green;
 
 }
 
