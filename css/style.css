@@ -39,6 +39,7 @@ hr{
   margin: 1px;
 }
 
+
 /* css for tic-tac-toe & photogallery */
 
 .pix{
@@ -54,6 +55,7 @@ hr{
     border-color: green;
     border-style: solid;
     border: 5px;
+    background-color: #555;
 
 }
 
