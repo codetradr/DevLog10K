@@ -59,11 +59,10 @@ hr{
 
 .logDetail{
 
-    border: 10px;
     background-color: #eee;
     padding: 10px auto;
     margin:10px auto;
-    border-right: salmon solid;
+    border: 10px salmon solid;
 
 }
 
