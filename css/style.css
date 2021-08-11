@@ -7,11 +7,15 @@ body{
     padding: 5%;
     width: 80%;
     margin: auto;
+    background-color: HoneyDew;
+    line-height: 1.6em;
+
+    /*
     border: 2px;
     border-style: solid;
     border-color: salmon;
-    background-color: HoneyDew;
-    line-height: 1.6em;
+    */
+
 
 
 }
@@ -57,6 +61,7 @@ hr{
 
     border: 5px;
     background-color: #eee;
+    border-right: salmon solid;
 
 }
 
