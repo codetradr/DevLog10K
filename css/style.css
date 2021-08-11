@@ -61,6 +61,8 @@ hr{
 
     border: 5px;
     background-color: #eee;
+    padding: 10px auto;
+    margin:10px auto;
     border-right: salmon solid;
 
 }
