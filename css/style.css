@@ -44,7 +44,8 @@ hr{
 .pix{
     /* width: 15%; */
     float: left;
-    width: 30%
+    width: auto;
+    height: auto;
     /* margin: 1.66%; */
 
 }
