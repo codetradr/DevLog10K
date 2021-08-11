@@ -75,8 +75,8 @@ hr{
     /* margin-left: 1.66%; */
     
     border-bottom: 2px solid #f1f1f1;
-    max-width: 95%;
-    height: 25%;
+    width: auto;
+    height: auto;
     
     /* padding-bottom: 10px; */
 }
