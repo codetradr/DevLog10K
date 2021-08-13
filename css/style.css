@@ -78,7 +78,7 @@ height: 20px;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .pix {
   float: left;
-  width: 15%;
+  width: 16.66%;
   padding: auto;
 }
 
