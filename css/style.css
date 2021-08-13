@@ -34,6 +34,10 @@ div{
   padding: 1px;
 }
 
+form {
+  margin:1px;
+}
+
 hr{
   margin: 1px;
 }
