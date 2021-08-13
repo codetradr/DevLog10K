@@ -28,10 +28,6 @@ p{
 margin: 1px;
 }
 
-section{
-  margin: 10px;
-  padding: 10px;
-}
 
 div{
   margin: 1px;
@@ -69,7 +65,7 @@ hr{
     /* padding-bottom: 10px; */
 }
 
-section .pix{
+section{
 height: 20px;
 }
 
