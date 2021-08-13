@@ -78,8 +78,8 @@ height: 20px;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .pix {
   float: left;
-  width: 16.66%;
-  padding: 1px;
+  width: 16%;
+  padding: auto;
   box-sizing:border-box; /* CSS crash course - Traversy Media */
 }
 
