@@ -80,6 +80,7 @@ height: 20px;
   float: left;
   width: 16.66%;
   padding: 1px;
+  box-sizing:border-box; /* CSS crash course - Traversy Media */
 }
 
 /* Clear floats after image containers */
