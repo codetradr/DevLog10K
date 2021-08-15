@@ -3,7 +3,7 @@ var selectedColor = colors[3];
 
 // if - else if - else
 
-/* if (selectedColor === 'red') {
+if (selectedColor === 'red') {
     console.log("The color is red");
 }
 
@@ -17,22 +17,22 @@ else if (selectedColor === 'green') {
 
 else {
     console.log("The color is yellow");
-} */
+}
 
 // switch - case - default: similar to if - else if - else
 
-/* switch(selectedColor){
+switch(selectedColor){
     case "red": console.log("The color is red."); break;
     case "blue": console.log("The color is blue"); break;
     case "green": console.log("The color is green."); break;
     case "yellow": console.log("The color is yellow."); break;
     default: console.log("There was an error!");
-} */
+}
 
 
 // && to test if all conditions are true
 
-/* var goodMood = true;
+var goodMood = true;
 var goodSleep = true;
 
 if( goodMood && goodSleep ){
@@ -40,10 +40,10 @@ if( goodMood && goodSleep ){
 }
 else {
     console.log("I am grumpy");
-} */
+}
 
 // using the pipe ( || ), same as "or"  - testing if any of the conditions is met, to return true
-/* 
+
 var gotBreakfast =  true;
 var gotLunch = true;
 var gotDinner = false;
@@ -53,7 +53,7 @@ if( gotBreakfast || gotLunch || gotDinner) {
 }
 else {
     console.log("I am starving!");
-} */
+}
 
 // for loop. initialize counter, condition, increment loop
 
@@ -91,3 +91,17 @@ while (age < 20) {
     counter ++;
 }
 console.log(myString);
+
+//string methods - capitalizing a string with .toUpperCase() method.
+var foodie = "I am really hungry for some.";
+console.log(foodie);
+
+var bigFoodie = foodie.toUpperCase();
+console.log(bigFoodie);
+
+// string methods - searching for the position where a string/word starts, picking it out, capitalizing, and then replacing ...
+var reallyLocation = foodie.search("really");
+var specialWord = foodie.substr(reallyLocation, "really".length);
+var newWord = specialWord.toUpperCase();
+var newFoodie = foodie.replace("really", newWord);
+console.log(newFoodie);
