@@ -105,3 +105,39 @@ var specialWord = foodie.substr(reallyLocation, "really".length);
 var newWord = specialWord.toUpperCase();
 var newFoodie = foodie.replace("really", newWord);
 console.log(newFoodie);
+
+// combine string with data from an array
+var foods2 = ['pear', 'cherries', 'almonds', 'mangoes', 'grapes'];
+
+console.log(`${newFoodie} ${foods2[1]}`)
+
+// combining string with each of array items - and print the result
+for (eachFood2 of foods2){
+    console.log(`${newFoodie}.. ${eachFood2}`);
+}
+
+// print array item in uppercase if position is even. Combine with string.
+
+// changing the even position items to uppercase first, and then doing the combination.
+foods22 = [];
+for (eachFood2 of foods2){
+    if (foods2.indexOf(eachFood2)%2 === 0){
+        foods22.push(eachFood2.toUpperCase());
+    }
+    else {foods22.push(eachFood2)};
+}
+console.log(foods22);
+
+for (eachFood2 of foods22){
+   console.log(`${newFoodie}.. ${eachFood2}`);
+}
+
+// refactored code. Earlier failed to do this as method was outside the ${}. Corrected below. 
+
+for (eachFood2 of foods2){
+    if (foods2.indexOf(eachFood2)%2 === 0){
+        console.log(`${newFoodie}.. ${eachFood2.toUpperCase()}`);
+    }
+    else {
+        console.log(`${newFoodie}.. ${eachFood2}`);
+    }}
