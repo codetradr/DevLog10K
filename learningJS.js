@@ -80,13 +80,13 @@ while (counter < 10) {
 }
 console.log(myString);
 
-//template literals. similar to string formatting or fstrings in python. put a string in ticks and ${variable} ...
+//template literals. similar to string formatting or fstrings in python. put a string in tick marks and the variable in ${} ...
 var age = 10;
 counter = 0;
 var myString = "I am 10 years old. \n";
 
 while (age < 20) {
-    myString += `In ${counter} years, I will be ${age} years old. \n`;
+    myString += `In ${counter} years, I will be ${age} years old. The square of my age = ${age ** 2} \n`;
     age ++;
     counter ++;
 }
